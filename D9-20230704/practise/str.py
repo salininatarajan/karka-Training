@@ -6,7 +6,7 @@ my_name =name_list[0]
 print(my_name)
 #name=name_set[0]
 #print(name)
-friends = name_list[0:4]
+friends = name_list[0:3]
 print(friends)
 string= "shalini"
 number = string[0:4]

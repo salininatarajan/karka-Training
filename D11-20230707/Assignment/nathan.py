@@ -1,12 +1,12 @@
-# number = int(input("Enter the number: "))
+number = int(input("Enter the number: "))
 
-# def find_index(number):
-#     num_list = [20, 23, 45, 67]
-#     for i, num in enumerate(num_list):
-#         if num == number:
-#             return i
+def find_index(number):
+    num_list = [20, 23, 45, 67]
+    for i, num in enumerate(num_list):
+        if num == number:
+            return i
         
-# print(find_index(number))
+print(find_index(number))
 
 # def index(num_list):
 #     for i,num in enumerate(num_list):
@@ -30,14 +30,14 @@
 # index=(find_index(["jyo","adlins","abi","sree","thanu","carolin"]))
 # print("friend name index is",index)
 
-def find_length(friend_list):
-   name = "jyo"
-   for i,friend in enumerate(friend_list):
-        if len(friend) > len(name):
-         name = friend
-   return name
-length = find_length(["jyo","adlin","abi","sree","carolin","thanu","sathya"])
-print("heighest name length is",length)
+# def find_length(friend_list):
+#    name = "jyo"
+#    for i,friend in enumerate(friend_list):
+#         if len(friend) > len(name):
+#          name = friend
+#    return name
+# length = find_length(["jyo","adlin","abi","sree","carolin","thanu","sathya"])
+# print("heighest name length is",length)
 
 
 

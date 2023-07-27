@@ -44,18 +44,18 @@ my_resume={"name":"salini N",
                                            "state":"tamilnadu",
                                            "pincode":"629001"}}}
 # print(my_resume["personal details"]["languages known"][1])
-level = (my_resume["educational qualification"])
+# level = (my_resume["educational qualification"])
 # for i in level:
 #     print(i["qualification"])
 
-# level = my_resume["personal details"]["Address"]
+level = my_resume["personal details"]
 # for key in level:
 #     print(level[key])
 
-# add = level["Address"]
-# for key in add:
-#     print(key)
-#     print(add[key])
+add = level["Address"]
+for key in add:
+    print(key)
+    print(add[key])
 # for key,value in my_resume.items():
 #     detail=(key)
 #     detail2=(value)
@@ -71,6 +71,7 @@ level = (my_resume["educational qualification"])
 
 # for i in level:
 #     print(i["percentage"])
+
 
 
 

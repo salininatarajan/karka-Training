@@ -24,23 +24,25 @@ else :
      
 # home work 3
 number = int(input("enter the number"))
-print(number)
+# print(number)
 if number%2==0:
     print(number,"is an even number")
 else:
     print(number,"is an odd number")
 
 # home work 4
-item1= int(input("enthe the amount"))
-item2 =int(input("enthe the amount"))
-item3=int(input("enthe the amount"))
-item4=int(input("enthe the amount"))
+item1= int(input("enter the amount"))
+item2 =int(input("enter the amount"))
+item3=int(input("enter the amount"))
+item4=int(input("enter the amount"))
 total_amount = (item1+item2+item3+item4)
 print(total_amount)
 if 500 <=total_amount<1000:
   print("you have owned a silver token")
 else:
   print ("you have owned goldel token")
+  
+
   
 
 
