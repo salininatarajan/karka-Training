@@ -1,4 +1,4 @@
-# from datetime import date
+from datetime import date
 # curr_date=date(2023,7,25)
 # curr_date=date.today()
 # curr_date=date.today().year
@@ -26,21 +26,29 @@ from datetime import datetime
 # string=now.strftime("%d")
 # print(string)
 
-# from datetime import datetime
-# from pytz import timezone
-# format ="%Y-%m-%d %H:%M:%S"
-# now_utc=datetime.now(timezone("UTC"))
-# print(now_utc.strftime(format))
+from datetime import datetime
+from pytz import timezone
+format ="%Y-%m-%d %H:%M:%S"
+now_utc=datetime.now(timezone("UTC"))
+print(now_utc.strftime(format))
+
 
 # now_asia = now_utc.astimezone(timezone('Asia/Kolkata'))
 # print(now_asia.strftime(format))
 # print(strp)
 from datetime import timedelta
-date_str="06 october 2000"
-print(type(date_str))
-strp=datetime.strptime(date_str,"%d %B %Y")
-end_date=strp+timedelta(days=5)
-print(end_date)
+# date_str="06 october 2000"
+# print(type(date_str))
+# strp=datetime.strptime(date_str,"%d %B %Y")
+# end_date=strp+timedelta(days=5)
+# print(end_date)
+
+num=int(input("days"))
+day="27-july-2023"
+print(day)
+strp=datetime.strptime(day,"%d-%B-%Y")
+ans=strp+timedelta(days=num)
+print(ans)
 
 
 

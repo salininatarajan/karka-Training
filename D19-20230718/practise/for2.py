@@ -21,6 +21,9 @@ for i in marks:
     for grade in marks:
         print(grade["sem_grade"])
         #print(grade["sem_name"])
+    
+
+
         
          
 

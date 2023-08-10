@@ -72,6 +72,8 @@ for key in add:
 # for i in level:
 #     print(i["percentage"])
 
+# print(my_resume["name"])
+    
 
 
 

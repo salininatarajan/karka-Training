@@ -31,8 +31,8 @@ for unit in range(len(eb_units)-1):
     dic["units_consumed"]=units_per_month
     dic["bill_amount"]=per
     bill_detail.append(dic)
-# print(bill_detail)
-# print(f"total_amount:{total_amount}")
+print(bill_detail)
+print(f"total_amount:{total_amount}")
 
 for data in bill_detail:
 
