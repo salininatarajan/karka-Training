@@ -8,8 +8,3 @@ for i in list:
         majority_num=num
         ans=i
 print(ans)
-
-
-
-
-
